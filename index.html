@@ -95,6 +95,136 @@
             </div>
           </div>
         </div>
+	      
+	      	  	  <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "105103852131215");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+
+
+	
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Services Section Start -->
+    <!-- <section id="services" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Best Colleges</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <div class="row">
+          
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="text-center">
+                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
+              </div>
+              <div class="services-content">
+                <h4>Acharya Institutes</h4>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="text-center">
+                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
+              </div>
+              <div class="services-content">
+                <h4>Ramaia Institute</h4>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="text-center">
+                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
+              </div>
+              <div class="services-content">
+                <h4>Christ College</h4>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="text-center">
+                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
+              </div>
+              <div class="services-content">
+                <h4>Vogue Institute Of Art And Design</h4>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="text-center">
+                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
+              </div>
+              <div class="services-content">
+                <h4>Impact Institute Of Management Studies Bangalore</h4>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="text-center">
+                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
+              </div>
+              <div class="services-content">
+                <h4>Heritage City College Of Health</h4>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="text-center">
+                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
+              </div>
+              <div class="services-content">
+                <h4>East West College Of Management</h4>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Services Section End -->
 
       </div>
     </section>
@@ -347,135 +477,7 @@
         </div>
       </div>
     </section>
-	  	  <!-- Messenger Chat plugin Code -->
-    <div id="fb-root"></div>
 
-    <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "105103852131215");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-
-
-	
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v13.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <!-- Services Section Start -->
-    <!-- <section id="services" class="section-padding">
-      <div class="container">
-        <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Best Colleges</h2>
-          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
-        </div>
-        <div class="row">
-          
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-              <div class="text-center">
-                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
-              </div>
-              <div class="services-content">
-                <h4>Acharya Institutes</h4>
-                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-              <div class="text-center">
-                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
-              </div>
-              <div class="services-content">
-                <h4>Ramaia Institute</h4>
-                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-              <div class="text-center">
-                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
-              </div>
-              <div class="services-content">
-                <h4>Christ College</h4>
-                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-              <div class="text-center">
-                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
-              </div>
-              <div class="services-content">
-                <h4>Vogue Institute Of Art And Design</h4>
-                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-              <div class="text-center">
-                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
-              </div>
-              <div class="services-content">
-                <h4>Impact Institute Of Management Studies Bangalore</h4>
-                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-              <div class="text-center">
-                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
-              </div>
-              <div class="services-content">
-                <h4>Heritage City College Of Health</h4>
-                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-              <div class="text-center">
-                <img src="/assets/images/acharya-1.jpg" alt="..." class="img-fluid">
-              </div>
-              <div class="services-content">
-                <h4>East West College Of Management</h4>
-                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- Services Section End -->
     <section class="u-clearfix u-palette-1-base u-section-8" id="carousel_de83">
       <div class="u-expanded-width u-palette-3-base u-shape u-shape-rectangle u-shape-1"></div>
       <div class="u-align-center-sm u-align-center-xs u-container-style u-group u-radius-33 u-shape-round u-white u-group-1">
